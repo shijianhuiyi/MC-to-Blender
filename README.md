@@ -35,6 +35,26 @@ MC 到搅拌机 /
 ├── examples/               # 示例模型与工程文件
 └── docs/                   # 详细图文教程
 
+## 📥 资源下载说明
+
+###1. 核心工具文件（直接从仓库获取）
+以下文件已包含在本仓库中，可直接点击下载：
+- Blender 导入插件：`/blender-addon/MC_Importer.py`
+- 基础示例模型：`/examples/sample_building.obj`
+- 原版基础材质：`/assets/textures/terrainExt.png`
+
+###2. 完整资源包（推荐下载）
+包含全套材质包、示例工程与扩展工具，可通过 GitHub Release 下载：
+[👉 点击下载：MC到搅拌机 完整资源包 v1.0](https://github.com/shijianhuiyi/MC to Blender/releases/tag/v1.0)
+
+
+### 3. 补充材质包（可选）
+如需其他风格的 Minecraft 材质贴图，可自行下载后替换：
+- DokuCraft 系列（写实风格）：[CurseForge 下载地址](https://www.curseforge.com/minecraft/texture-packs/dokucraft)
+- JG-RTX 系列（光影追踪风格）：[PlanetMinecraft 下载地址](https://www.planetminecraft.com/texture_pack/jg-rtx/)
+  
+下载后，将材质包内的 `terrainExt_*.png` 文件替换 `/assets/textures/` 文件夹中的对应文件即可。
+
 ## ⚠️ 常见问题
 - 模型导入后发黑：使用插件修复材质，检查贴图文件夹路径
 - 树叶/玻璃不透明：开启插件的「透明材质适配」功能
